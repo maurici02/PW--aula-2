@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro</title>
+
 </head>
 <body>
     <h1>Cadastro de Aluno</h1>
     <form>
+        <!-- Input de texto -->
         <label>Nome</label><br>
         <input type="text" name="txtNome"><br>
         <label>Idade</label><br>
         <input type="number" name="txtIdade"><br>
         <label>Data de Nascimento</label><br>
         <input type="date" name="txtDataDeNascimento"><br>
-        <button>Enviar</button>
+        <!-- <input type="radio" id="html" name="test" value="masculino">
+        <label>Masculino</label><br> 
+        <input type="radio" id="html" name="test" value="feminino">
+        <label>Feminino</label> -->
+        <!-- radio Buttons -->
+        <input type="radio" id="ds" name="curso">
+        <label>Desenvolvimento de sistemas</label><br>
+        <input type="radio" id="log" name="curso">
+        <label>Logística</label><br>
+        <input type="radio" id="mec" name="curso">
+        <label>Mecatrônica</label><br>
+         <!--Select de estado-->
+        <label>Selecione o Estado</label><br>
+        <select name="estados">
+            <option value="select">-----</option>
+            <option value="ba">Bahia</option>
+            <option value="df">Brasilia</option>
+            <option value="sp">São Paulo</option>
+            <option value="se">Sergipe</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="rj">Rio de Janeiro</option>
+        </select><br>
+        <!-- Botão de confirmação -->
+        <button>Enviar</button> 
     </form>
+    
 </body>
 </html>

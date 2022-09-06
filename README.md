@@ -8,4 +8,7 @@ Aula 3 de Programação WEB - Adicionando caixinha de botão input "radio" com o
 
 Aula 4 de Programação WEB - Foi iniciado o conceito de css, mostrando que se passarmos uma class com o nome podemos evidencar no css e definir as "cores/temas/mudanças/estilização"
 
-Aula 5 de Programação WEB - Sobrescrição de "cores/temas/mudanças/estilização", 
+Aula 5 de Programação WEB - Sobreposição de "cores/temas/mudanças/estilização" utilizando CSS.
+
+Aula 6 de Programação WEB - Ensinando sobre "box" "bordas,margens,altura,largura e etc", espaçamento..
+
